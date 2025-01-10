@@ -196,3 +196,34 @@ main {
 .vision-future-item-3 button {
   background-color: #ffc239;
 }
+/* Quote Section */
+.quote-section {
+  width: 1280px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 16px;
+  padding: 18px 24px 48px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.quote-section p {
+  padding-top: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.quote-section h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 4px;
+}
+.quote-section span {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.6);
+}
+.quote-section > div {
+  background-image: url(/assets/images/quote-bg.png);
+  background-repeat: no-repeat;
+}
