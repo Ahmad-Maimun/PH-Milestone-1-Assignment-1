@@ -242,6 +242,7 @@ main {
   padding: 32px;
   background-color: white;
   border-radius: 16px;
+  margin-bottom: 80px;
 }
 .opinion-section-table {
   border: 1px solid rgba(14, 14, 14, 0.15);
@@ -293,4 +294,77 @@ main {
   outline: none;
   border-color: #0e0e0e;
   background-color: #c6e4d6;
+}
+/* Recent News Section */
+.recent-news-section {
+  width: 1280px;
+  margin: 0 auto;
+}
+.recent-news-section h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.recent-news-section > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.recent-news-items {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.recent-news {
+  background-color: white;
+  border-radius: 24px;
+  padding: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+.recent-news-img {
+  width: 100%;
+  border-radius: 24px;
+}
+.recent-news-img img {
+  width: 100%;
+}
+.recent-news-desc h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.recent-news-desc img {
+  width: 134px;
+  height: 40px;
+  display: block;
+  margin-bottom: 12px;
+}
+.recent-news-desc .date-time {
+  display: flex;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 12px;
+}
+.recent-news-desc p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.recent-news-desc button {
+  padding: 13px 26px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
