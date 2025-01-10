@@ -1,0 +1,40 @@
+.fira-sans-font {
+  font-family: 'Fira Sans', serif;
+  font-style: normal;
+}
+/* Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Shared CSS */
+.primary-font-color {
+  color: #0e0e0e;
+}
+/* Header CSS */
+nav {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+nav h5 {
+  font-size: 32px;
+  font-weight: 700;
+}
+nav button {
+  background-color: transparent;
+  color: #006a50;
+  border: 1px solid #006a50;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+nav button:hover {
+  box-shadow: 2px 2px 2px #006a50;
+}
