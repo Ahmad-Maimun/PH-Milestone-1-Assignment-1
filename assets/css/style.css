@@ -44,10 +44,6 @@ nav button {
   padding: 15px 30px;
   border-radius: 8px;
   cursor: pointer;
-  transition: all ease 0.3s;
-}
-nav button:hover {
-  box-shadow: 2px 2px 2px #006a50;
 }
 /* Hero Section CSS */
 .hero {
@@ -104,6 +100,7 @@ main {
   gap: 24px;
 }
 .pillars-item {
+  width: 302px;
   padding: 24px;
   background-color: white;
   border-radius: 16px;
@@ -171,6 +168,7 @@ main {
   font-size: 16px;
   font-weight: 600;
   color: white;
+  cursor: pointer;
 }
 .vision-future-item-1 {
   background-color: rgba(84, 143, 245, 0.2);
@@ -263,6 +261,7 @@ main {
 }
 .question {
   padding: 36px 349px 36px 24px;
+  width: 1017px;
   border-bottom: 1px solid rgba(14, 14, 14, 0.15);
   border-right: 1px solid rgba(14, 14, 14, 0.15);
   font-size: 16px;
@@ -465,6 +464,8 @@ main {
 }
 .subscribe-newsletter input {
   padding: 18px 300px 18px 40px;
+  width: 600px;
+  height: 55px;
   border: none;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -499,4 +500,24 @@ main {
   font-weight: 400;
   color: rgba(14, 14, 14, 0.7);
   text-align: center;
+}
+/* Footer Section */
+footer {
+  width: 1280px;
+  margin: 0 auto;
+}
+footer h4 {
+  margin: 50px auto 32px;
+  padding-bottom: 32px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0e0e0e;
+  text-align: center;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.1);
+}
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+  margin-bottom: 50px;
 }
