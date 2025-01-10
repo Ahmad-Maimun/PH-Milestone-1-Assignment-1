@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 /* Shared CSS */
 .primary-font-color {
@@ -119,4 +120,79 @@ main {
   font-size: 16px;
   font-weight: 400;
   color: rgba(14, 14, 14, 0.7);
+}
+/* The Vision of Future CSS */
+.vision-future-section {
+  width: 1280px;
+  margin: 0 auto;
+}
+.vision-future-section h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.vision-future-section > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.vision-future-items {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.vision-future-items > div {
+  padding: 32px;
+}
+.vision-future-items > div img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 24px;
+}
+.vision-future-items > div h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.vision-future-items > div p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 24px;
+}
+.vision-future-items > div button {
+  border: none;
+  padding: 11px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+.vision-future-item-1 {
+  background-color: rgba(84, 143, 245, 0.2);
+  border: 1px solid #5490f5;
+  border-radius: 16px;
+  width: 410px;
+}
+.vision-future-item-2 {
+  background-color: #c6e4d6;
+  border: 1px solid #09a15c;
+  border-radius: 16px;
+  width: 410px;
+}
+.vision-future-item-3 {
+  background-color: #f7ebcf;
+  border: 1px solid #ffc239;
+  border-radius: 16px;
+  width: 410px;
+}
+.vision-future-item-1 button {
+  background-color: #5490f5;
+}
+.vision-future-item-2 button {
+  background-color: #09a15c;
+}
+.vision-future-item-3 button {
+  background-color: #ffc239;
 }
