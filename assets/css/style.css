@@ -48,7 +48,7 @@ nav button:hover {
 /* Hero Section CSS */
 .hero {
   max-width: 1280px;
-  margin: 20px 0 auto;
+  margin: 20px auto 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,4 +79,44 @@ nav button:hover {
 .hero-right img {
   width: 474px;
   height: 400px;
+}
+/* Pillars of Bangladesh 2.0 */
+main {
+  padding-top: 80px;
+  background-color: #f1f1f3;
+}
+.pillars-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+.pillars-section h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.pillars-items {
+  display: flex;
+  gap: 24px;
+}
+.pillars-item {
+  padding: 24px;
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.pillars-item img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 24px;
+}
+.pillars-item h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.pillars-item p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
 }
