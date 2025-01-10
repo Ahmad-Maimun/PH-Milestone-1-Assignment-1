@@ -199,7 +199,7 @@ main {
 /* Quote Section */
 .quote-section {
   width: 1280px;
-  margin: 0 auto;
+  margin: 0 auto 80px;
   background-color: white;
   border-radius: 16px;
   padding: 18px 24px 48px;
@@ -226,4 +226,71 @@ main {
 .quote-section > div {
   background-image: url(/assets/images/quote-bg.png);
   background-repeat: no-repeat;
+}
+/* Opinion Matters Section */
+.opinion-matters {
+  width: 1280px;
+  margin: 0 auto;
+}
+.opinion-matters h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.opinion-section {
+  padding: 32px;
+  background-color: white;
+  border-radius: 16px;
+}
+.opinion-section-table {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.opinion-table-header {
+  background-color: #d4edda;
+  color: #0e0e0e;
+  padding: 24px;
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  display: flex;
+  justify-content: space-between;
+}
+.question {
+  padding: 36px 349px 36px 24px;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  border-right: 1px solid rgba(14, 14, 14, 0.15);
+  font-size: 16px;
+  font-weight: 500;
+  color: #0e0e0e;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  width: 219px;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 24px;
+}
+.remove-border {
+  border-bottom: none;
+}
+
+.dropdown select {
+  background-color: #c6e4d6;
+  border: 1px solid #0e0e0e;
+  padding: 12px 16.5px;
+  width: 152px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.dropdown select:focus {
+  outline: none;
+  border-color: #0e0e0e;
+  background-color: #c6e4d6;
 }
