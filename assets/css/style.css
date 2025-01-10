@@ -9,6 +9,9 @@
   box-sizing: border-box;
   overflow-x: hidden;
 }
+input {
+  outline: none;
+}
 /* Shared CSS */
 .primary-font-color {
   color: #0e0e0e;
@@ -316,6 +319,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-bottom: 80px;
 }
 .recent-news {
   background-color: white;
@@ -367,4 +371,72 @@ main {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+}
+/* Donate Today */
+.donate-today {
+  width: 1280px;
+  margin: 0 auto 80px;
+}
+.donate-today h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.donate-today p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  width: 1104px;
+  margin: 0 auto 32px;
+}
+.donate-today input {
+  width: 1032px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 422px;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.3);
+  margin-bottom: 32px;
+}
+.donate-today input::placeholder {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.3);
+}
+.donate-today > a button {
+  padding: 17px 34px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  margin: 0 auto;
+}
+.donate-buttons {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.donate-buttons button {
+  padding: 40px;
+  border-radius: 16px;
+  background-color: white;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.donate-buttons button:hover {
+  background-color: #c6e4d6;
 }
