@@ -105,6 +105,7 @@ nav button:hover::after {
   cursor: pointer;
   margin-bottom: 5px;
   transition: all ease 0.3s;
+  border: 1px solid transparent;
 }
 .hero-left button:hover {
   box-shadow: 5px 5px 5px black;
